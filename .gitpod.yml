@@ -1,4 +1,8 @@
 tasks:
-  - name: aws-sam
-    before: | 
-          #docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher:latest --privileged
+  - name: terraform
+    init: |
+      sudo apt update
+      sudo apt install git python3 python3-pip -y
+      git clone https://github.com/kubernetes-incubator/kubespray.git
+      cd kubespray
+      pip install -r requirements.txt
