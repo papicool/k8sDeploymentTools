@@ -20,3 +20,11 @@ etcd : Gen_certs | run cert generation script fails on SSL #2343
 https://github.com/kubernetes-sigs/kubespray/issues/2343
 
 /usr/local/bin/etcdctl endpoint --cluster status && /usr/local/bin/etcdctl endpoint --cluster health 2>&1 | grep -v 'Error: unhealthy cluster' >/dev/null
+
+
+
+## Links
+
+https://www.linuxtechi.com/install-kubernetes-using-kubespray/
+
+https://dev.to/admantium/kubernetes-installation-tutorial-kubespray-46ek
