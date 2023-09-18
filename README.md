@@ -1,4 +1,4 @@
-# rancherHandsOn
+# Kubespray
 
 declare -a IPS=( c6eb1619612c.mylabserver.com c6eb1619611c.mylabserver.com c6eb1619613c.mylabserver.com)
 
