@@ -6,3 +6,4 @@ tasks:
       git clone https://github.com/kubernetes-incubator/kubespray.git
       cd kubespray
       pip install -r requirements.txt
+      ansible --version
